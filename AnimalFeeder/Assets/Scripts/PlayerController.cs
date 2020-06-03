@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
 
 		if (Input.GetKeyDown(KeyCode.Space))
 		{
-			Instantiate(foodPrefab, transform.position, foodPrefab.transform.rotation);
+			Instantiate(foodPrefab, new Vector3(transform.position.x, transform.position.y + .5f, transform.position.z), foodPrefab.transform.rotation);
 		}
 	}
 }
