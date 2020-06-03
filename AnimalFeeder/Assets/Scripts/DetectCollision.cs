@@ -5,16 +5,6 @@ using UnityEngine;
 
 public class DetectCollision : MonoBehaviour
 {
-	void Start()
-	{
-		
-	}
-
-	void Update()
-	{
-		
-	}
-
 	void OnTriggerEnter(Collider other)
 	{
 		Destroy(gameObject);
