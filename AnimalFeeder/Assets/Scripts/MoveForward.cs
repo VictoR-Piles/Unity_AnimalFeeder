@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FoodMove : MonoBehaviour
+/**
+ * Mueve la comida y los animales hacia adelante
+ */
+public class MoveForward : MonoBehaviour
 {
 	public float speed = 14f;
-
-	void Start()
-	{
-	}
 
 	void Update()
 	{
